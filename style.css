@@ -203,6 +203,7 @@ section .title::after {
     background: url("./images/programing.jpg") no-repeat center;
     opacity: 95%;
     height: 100vh;
+    widows: 2000px;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -336,7 +337,7 @@ section .title::after {
 
 .services .serv-content .card {
     width: calc(33% - 20px);
-    background: #222;
+    background: rgb(43, 39, 39);
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -599,6 +600,11 @@ section .title::after {
     width: calc(50% - 30px);
 }
 
+.contact {
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid rgb(221, 204, 204);
+}
+
 .contact .contact-content .text {
     font-size: 20px;
     font-weight: 600;
@@ -660,7 +666,7 @@ section .title::after {
 .contact .right form .textarea textarea {
     height: 100%;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(240, 115, 13);
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
