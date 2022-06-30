@@ -809,6 +809,16 @@ footer p:nth-child(2) {
     cursor: pointer;
 }
 
+.end-2 {
+    top: 93%;
+    position: absolute;
+    color: #f5edef;
+    bottom: 35px;
+    font-size: 14px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
 
 /* responsive media query start */
 
@@ -939,5 +949,20 @@ footer p:nth-child(2) {
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .end,
+    .end-2 {
+        font-size: 16px;
+    }
+    .item-contact li {
+        width: 30px;
+        height: 30px;
+    }
+    footer p:nth-child(2) {
+        width: 300px;
+        color: white;
+        font-size: 13px;
+        text-align: center;
+        padding-bottom: 30px;
     }
 }
